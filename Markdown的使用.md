@@ -43,7 +43,7 @@
 //本地照片（本地路径->访问本地文件，别人无法查看） 
 
 //网络照片（公网URL走网络请求）
-Url：
+Url：  (这个URL有点问题，待改）
 ![邀请码](https://picgocloud.com/m/yt7hxptd/bcc55fad-f5af-4a9e-a3be-9274ade2b203.png）
 
 ---
