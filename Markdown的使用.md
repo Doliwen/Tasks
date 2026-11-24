@@ -44,13 +44,12 @@
 
 //网络照片（公网URL走网络请求）
 Url：
-https://picgocloud.com/m/yt7hxptd/bcc55fad-f5af-4a9e-a3be-9274ade2b203.png
+![邀请码](https://picgocloud.com/m/yt7hxptd/bcc55fad-f5af-4a9e-a3be-9274ade2b203.png）
 
 ---
 
 ###  1.4超链接
-
-`[名字](地址)-点链接直接进网页`  
+[名字](地址)
 [中南民族大学VPN登录](https://webvpn.scuec.edu.cn/users/sign_in)
 
 解析器只负责识别 `[文字](url)` 中的 url，**不会校验该网址是否真实可访问**。语法合法 ≠ 网址有效
