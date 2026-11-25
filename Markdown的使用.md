@@ -42,22 +42,25 @@
 
 //本地照片（本地路径->访问本地文件，别人无法查看） 
 
-//网络照片（公网URL走网络请求）
-Url：  (这个URL有点问题，待改）
-![邀请码](https://picgocloud.com/m/yt7hxptd/bcc55fad-f5af-4a9e-a3be-9274ade2b203.png）
+//网络照片（公网URL走网络请求）(使用的PicGo)
+> 原图大小
+![😄](https://picgocloud.com/m/yt7hxptd/829ee894-97bd-4ece-a9ee-36b2039c8769.jpg)     
 
+> 修改尺寸
+<img src = "https://picgocloud.com/m/yt7hxptd/edf59018-e0da-4883-af50-34011429ece8.png" width = "400" />      (HTML写法200/400/600）
 ---
 
 ###  1.4超链接
-[名字](地址)
+[名字] (地址)
+
 [中南民族大学VPN登录](https://webvpn.scuec.edu.cn/users/sign_in)
 
 解析器只负责识别 `[文字](url)` 中的 url，**不会校验该网址是否真实可访问**。语法合法 ≠ 网址有效
 
 ---
-补充：
+### `补充`：
 
-### 列表
+#### 列表
 
 1.列表
      | - 空格 字 ->点  (无序)    |数字 空格 字 ->自动排(有序)
@@ -65,7 +68,7 @@ Url：  (这个URL有点问题，待改）
 2.任务列表
  |- [] 字 得到空框 | - [x/X] 字 得到打勾的框
 
-### 嵌套
+#### 嵌套
 
 - 外层任务
 
