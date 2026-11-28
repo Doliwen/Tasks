@@ -40,15 +40,26 @@
 
 插入照片分两种：
 
-//本地照片（本地路径->访问本地文件，别人无法查看） 
+- **本地照片** （本地路径->访问本地文件，别人无法查看） 
+- **网络照片** （公网URL走网络请求）(使用的PicGo)
 
-//网络照片（公网URL走网络请求）(使用的PicGo)
-> 原图大小
-![😄](https://picgocloud.com/m/yt7hxptd/829ee894-97bd-4ece-a9ee-36b2039c8769.jpg)     
+> 1.直接使用原图   &emsp; ![😄](https://picgocloud.com/m/yt7hxptd/829ee894-97bd-4ece-a9ee-36b2039c8769.jpg)     
 
-> 修改尺寸
-<img src = "https://picgocloud.com/m/yt7hxptd/edf59018-e0da-4883-af50-34011429ece8.png" width = "400" />      (HTML写法200/400/600）
----
+> 2.在原图基础上放大/缩小尺寸  &emsp; <img src="https://picgocloud.com/m/yt7hxptd/edf59018-e0da-4883-af50-34011429ece8.png" width="200">
+
+>注意：<img之间不允许有空格,如果想同时限制高度和宽度,可以写 width="xxx" height="xxx" ;如果只写宽度，高度会等比例缩放，图片不会变形
+
+<!-- 1.HTML 实体空格(可以累加,Typora/GitHub 都支持)
+      &nbsp;   半角不断行空格（普通空格宽度）
+      &ensp;   半角空格（半个汉字宽）
+      &emsp;   全角空格（1个汉字宽！中文缩进首选）
+    
+     2.行尾**两个空格 + 回车** = 段落内换行
+    
+    
+    -->
+    
+--- 
 
 ###  1.4超链接
 [名字] (地址)
@@ -75,5 +86,18 @@
   - 子任务1
   - 子任务2
 ---
-    
+
+# 两种导航示范
+
+## 1. README首页索引、跳转其他文件
+
+ 实例：[Markdown的使用](../Pre-Work/对Markdown的使用.md) 
+
+
+## 2.单篇笔记内部目录、锚点跳转到本文文字
+实例： [1.4超链接](#14超链接)
+
+
+
+
 
