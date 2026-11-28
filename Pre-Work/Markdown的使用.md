@@ -91,7 +91,7 @@
 
 ## 1. README首页索引、跳转其他文件
 
- 实例：[Markdown的使用](../Pre-Work/对Markdown的使用.md) 
+ 实例：[对Github的基础认知](./对Github的基础认知.md) 
 
 
 ## 2.单篇笔记内部目录、锚点跳转到本文文字
